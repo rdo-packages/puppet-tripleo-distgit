@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-990a17f203abfc2aa764397b24d68eb545bea7de	puppet-tripleo-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+d93d6def12b4e24561e2b56a560733b4faaaff1a       	puppet-tripleo-distgit-core
+990a17f203abfc2aa764397b24d68eb545bea7de        	puppet-tripleo-distgit-ptl
+global:Registered-Users		Registered Users
