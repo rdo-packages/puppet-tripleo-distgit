@@ -16,7 +16,7 @@ Requires:       puppet-zookeeper
 Requires:       puppet-firewall
 Requires:       puppet-midonet
 Requires:       puppet-tomcat
-Requires:       puppet-keepalived
+Requires:       puppet-module-keepalived
 Requires:       puppet-haproxy
 Requires:       puppet >= 2.7.0
 
