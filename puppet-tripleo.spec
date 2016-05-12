@@ -6,7 +6,7 @@ License:        Apache-2.0
 
 URL:            https://github.com/openstack/puppet-tripleo
 
-Source0:        http://github.com/openstack/puppet-tripleo/archive/%{version}.tar.gz
+Source0:        https://tarballs.openstack.org/%{name}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
