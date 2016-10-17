@@ -59,3 +59,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 - Update to 5.0.0
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-tripleo/commit/?id=f90053667f8e0d4829103def235129c51786c50e
