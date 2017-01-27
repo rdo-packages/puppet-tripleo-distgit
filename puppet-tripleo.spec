@@ -3,7 +3,7 @@ Name:           puppet-tripleo
 Version:        5.6.9
 Release:        1%{?dist}
 Summary:        TripleO Puppet Module
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/openstack/puppet-tripleo
 
