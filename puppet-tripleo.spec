@@ -11,6 +11,7 @@ Source0:        https://tarballs.openstack.org/%{name}/%{name}-%{upstream_versio
 
 BuildArch:      noarch
 
+Requires:       puppet-etcd
 Requires:       puppet-stdlib
 Requires:       puppet-cassandra
 Requires:       puppet-zookeeper
