@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-tripleo
-Version:        6.2.0
+Version:        6.3.0
 Release:        1%{?dist}
 Summary:        TripleO Puppet Module
 License:        ASL 2.0
@@ -50,6 +50,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+* Mon Mar 06 2017 Alfredo Moralejo <amoralej@redhat.com> 6.3.0-1
+- Update to 6.3.0
+
 * Thu Feb 16 2017 Alfredo Moralejo <amoralej@redhat.com> 6.2.0-1
 - Update to 6.2.0
 
