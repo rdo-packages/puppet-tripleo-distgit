@@ -21,6 +21,7 @@ Requires:       puppet-tomcat
 Requires:       puppet-keepalived
 Requires:       puppet-haproxy
 Requires:       puppet-systemd
+Requires:       puppet-qdr
 Requires:       puppet >= 2.7.0
 
 %description
