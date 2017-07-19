@@ -23,6 +23,7 @@ Requires:       puppet-keepalived
 Requires:       puppet-haproxy
 Requires:       puppet-systemd
 Requires:       puppet-qdr
+Requires:       puppet-veritas_hyperscale
 Requires:       puppet >= 2.7.0
 
 %description
