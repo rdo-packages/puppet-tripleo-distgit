@@ -1,4 +1,7 @@
+# add guard for OSP packages not carried
+%global rhosp 0
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+
 Name:           puppet-tripleo
 Version:        7.4.0
 Release:        1%{?dist}
@@ -11,7 +14,6 @@ Source0:        https://tarballs.openstack.org/%{name}/%{name}-%{upstream_versio
 
 BuildArch:      noarch
 
-Requires:       puppet-etcd
 Requires:       puppet-fdio
 Requires:       puppet-stdlib
 Requires:       puppet-cassandra
@@ -22,9 +24,14 @@ Requires:       puppet-tomcat
 Requires:       puppet-keepalived
 Requires:       puppet-haproxy
 Requires:       puppet-systemd
-Requires:       puppet-qdr
 Requires:       puppet-veritas_hyperscale
 Requires:       puppet >= 2.7.0
+
+%if 0%{rhosp} == 0
+Requires:       puppet-etcd
+Requires:       puppet-qdr
+%endif
+
 
 %description
 Lightweight composition layer for Puppet TripleO.
