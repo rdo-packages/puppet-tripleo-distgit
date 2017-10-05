@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-tripleo
-Version:        5.6.2
+Version:        5.6.3
 Release:        1%{?dist}
 Summary:        TripleO Puppet Module
 License:        Apache-2.0
@@ -50,6 +50,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+* Thu Oct 05 2017 rdo-trunk <javier.pena@redhat.com> 5.6.3-1
+- Update to 5.6.3
+
 * Mon Sep 04 2017 rdo-trunk <javier.pena@redhat.com> 5.6.2-1
 - Update to 5.6.2
 
