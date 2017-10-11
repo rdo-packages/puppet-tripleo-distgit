@@ -67,6 +67,7 @@ Requires:       puppet-openstacklib
 Requires:       puppet-oslo
 Requires:       puppet-stdlib
 Requires:       puppet-systemd
+Requires:       puppet-swift
 Requires:       puppet-tomcat
 Requires:       puppet-veritas_hyperscale
 Requires:       puppet-zookeeper
