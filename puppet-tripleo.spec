@@ -84,7 +84,14 @@ Requires:       puppet-systemd
 Requires:       puppet-tempest
 Requires:       puppet-timezone
 Requires:       puppet-tomcat
+Requires:       puppet-trove
+Requires:       puppet-uchiwa
+Requires:       puppet-vcsrepo
 Requires:       puppet-veritas_hyperscale
+Requires:       puppet-vswitch
+Requires:       puppet-vswitch
+Requires:       puppet-xinetd
+Requires:       puppet-zaqar
 Requires:       puppet-zookeeper
 Requires:       puppet >= 2.7.0
 
