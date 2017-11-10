@@ -28,6 +28,7 @@ Requires:       puppet-concat
 Requires:       puppet-contrail
 Requires:       puppet-corosync
 Requires:       puppet-datacat
+Requires:       puppet-designate
 Requires:       puppet-ec2api
 Requires:       puppet-elasticsearch
 Requires:       puppet-fdio
