@@ -28,7 +28,6 @@ Requires:       puppet-concat
 Requires:       puppet-contrail
 Requires:       puppet-corosync
 Requires:       puppet-datacat
-Requires:       puppet-designate
 Requires:       puppet-ec2api
 Requires:       puppet-elasticsearch
 Requires:       puppet-fdio
@@ -54,7 +53,6 @@ Requires:       puppet-memcached
 Requires:       puppet-midonet
 Requires:       puppet-mistral
 Requires:       puppet-module-data
-Requires:       puppet-mongodb
 Requires:       puppet-mysql
 Requires:       puppet-n1k-vsm
 Requires:       puppet-neutron
@@ -96,6 +94,8 @@ Requires:       puppet-zookeeper
 Requires:       puppet >= 2.7.0
 
 %if 0%{rhosp} == 0
+Requires:       puppet-designate
+Requires:       puppet-mongodb
 Requires:       puppet-congress
 Requires:       puppet-etcd
 Requires:       puppet-qdr
