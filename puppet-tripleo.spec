@@ -81,7 +81,6 @@ Requires:       puppet-stdlib
 Requires:       puppet-swift
 Requires:       puppet-sysctl
 Requires:       puppet-systemd
-Requires:       puppet-tempest
 Requires:       puppet-timezone
 Requires:       puppet-tomcat
 Requires:       puppet-trove
