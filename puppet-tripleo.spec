@@ -14,82 +14,82 @@ Source0:        https://tarballs.openstack.org/%{name}/%{name}-%{upstream_versio
 
 BuildArch:      noarch
 
-Requires:       puppet-aodh
+Requires:       puppet-aodh >= 13.0.0
 Requires:       puppet-apache
 Requires:       puppet-auditd
-Requires:       puppet-barbican
+Requires:       puppet-barbican >= 13.0.0
 Requires:       puppet-cassandra
-Requires:       puppet-ceilometer
+Requires:       puppet-ceilometer >= 13.0.0
 Requires:       puppet-ceph
 Requires:       puppet-certmonger
-Requires:       puppet-cinder
+Requires:       puppet-cinder >= 13.0.0
 Requires:       puppet-collectd
 Requires:       puppet-concat
 Requires:       puppet-contrail
 Requires:       puppet-corosync
 Requires:       puppet-datacat
-Requires:       puppet-designate
-Requires:       puppet-ec2api
+Requires:       puppet-designate >= 13.0.0
+Requires:       puppet-ec2api >= 13.0.0
 Requires:       puppet-elasticsearch
 Requires:       puppet-fdio
 Requires:       puppet-firewall
 Requires:       puppet-fluentd
 Requires:       puppet-git
-Requires:       puppet-glance
-Requires:       puppet-gnocchi
+Requires:       puppet-glance >= 13.0.0
+Requires:       puppet-gnocchi >= 13.0.0
 Requires:       puppet-haproxy
-Requires:       puppet-heat
-Requires:       puppet-horizon
+Requires:       puppet-heat >= 13.0.0
+Requires:       puppet-horizon >= 13.0.0
 Requires:       puppet-inifile
 Requires:       puppet-ipaclient
-Requires:       puppet-ironic
+Requires:       puppet-ironic >= 13.0.0
 Requires:       puppet-java
 Requires:       puppet-kafka
 Requires:       puppet-keepalived
-Requires:       puppet-keystone
+Requires:       puppet-keystone >= 13.0.0
 Requires:       puppet-kibana3
 Requires:       puppet-kmod
-Requires:       puppet-manila
+Requires:       puppet-manila >= 13.0.0
 Requires:       puppet-memcached
 Requires:       puppet-midonet
-Requires:       puppet-mistral
+Requires:       puppet-mistral >= 13.0.0
 Requires:       puppet-module-data
 Requires:       puppet-mysql
 Requires:       puppet-n1k-vsm
-Requires:       puppet-neutron
-Requires:       puppet-nova
+Requires:       puppet-neutron >= 13.0.0
+Requires:       puppet-nova >= 13.0.0
 Requires:       puppet-nssdb
 Requires:       puppet-ntp
-Requires:       puppet-octavia
+Requires:       puppet-octavia >= 13.0.0
 Requires:       puppet-opendaylight
-Requires:       puppet-openstack_extras
-Requires:       puppet-openstacklib
-Requires:       puppet-ovn
-Requires:       puppet-oslo
+Requires:       puppet-openstack_extras >= 13.0.0
+Requires:       puppet-openstacklib >= 13.0.0
+Requires:       puppet-ovn >= 13.0.0
+Requires:       puppet-oslo >= 13.0.0
 Requires:       puppet-pacemaker
-Requires:       puppet-panko
+Requires:       puppet-panko >= 13.0.0
 Requires:       puppet-rabbitmq
 Requires:       puppet-redis
 Requires:       puppet-remote
 Requires:       puppet-rsync
-Requires:       puppet-sahara
+Requires:       puppet-sahara >= 13.0.0
 Requires:       puppet-sensu
 Requires:       puppet-snmp
 Requires:       puppet-ssh
 Requires:       puppet-staging
 Requires:       puppet-stdlib
-Requires:       puppet-swift
+Requires:       puppet-swift >= 13.0.0
 Requires:       puppet-sysctl
 Requires:       puppet-systemd
 Requires:       puppet-timezone
 Requires:       puppet-tomcat
-Requires:       puppet-trove
+Requires:       puppet-trove >= 13.0.0
 Requires:       puppet-uchiwa
 Requires:       puppet-vcsrepo
 Requires:       puppet-veritas_hyperscale
-Requires:       puppet-vswitch
+Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
-Requires:       puppet-zaqar
+Requires:       puppet-zaqar >= 13.0.0
 Requires:       puppet-zookeeper
 Requires:       puppet >= 2.7.0
 
@@ -130,5 +130,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
-
 
