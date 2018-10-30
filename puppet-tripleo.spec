@@ -27,6 +27,7 @@ Requires:       puppet-collectd
 Requires:       puppet-concat
 Requires:       puppet-contrail
 Requires:       puppet-corosync
+Requires:       puppet-crane
 Requires:       puppet-datacat
 Requires:       puppet-designate >= 13.0.0
 Requires:       puppet-ec2api >= 13.0.0
