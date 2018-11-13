@@ -68,6 +68,7 @@ Requires:       puppet-ovn >= 13.0.0
 Requires:       puppet-oslo >= 13.0.0
 Requires:       puppet-pacemaker
 Requires:       puppet-panko >= 13.0.0
+Requires:       puppet-qdr
 Requires:       puppet-rabbitmq
 Requires:       puppet-redis
 Requires:       puppet-remote
@@ -97,7 +98,6 @@ Requires:       puppet >= 2.7.0
 Requires:       puppet-mongodb
 Requires:       puppet-congress
 Requires:       puppet-etcd
-Requires:       puppet-qdr
 Requires:       puppet-tacker
 %endif
 
