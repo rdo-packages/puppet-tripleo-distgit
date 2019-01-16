@@ -68,6 +68,7 @@ Requires:       puppet-ovn >= 13.0.0
 Requires:       puppet-oslo >= 13.0.0
 Requires:       puppet-pacemaker
 Requires:       puppet-panko >= 13.0.0
+Requires:       puppet-placement
 Requires:       puppet-qdr
 Requires:       puppet-rabbitmq
 Requires:       puppet-redis
