@@ -93,7 +93,13 @@ Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
 Requires:       puppet-zaqar >= 13.0.0
 Requires:       puppet-zookeeper
-Requires:       puppet >= 2.7.0
+%if 0%{?fedora}
+# NOTE(bogdando): only needed for f28-based CI passing,
+# remove this condition for the "else" path, once we have Centos 8.
+Requires:       puppet-headless >= 5.5.6
+%else
+Requires:       puppet-headless >= 5.5.10
+%endif
 # NOTE(aschultz): needed to properly manage firewall rules.
 %if 0%{?fedora} || 0%{?rhel} > 7
 Requires:       iptables-services
