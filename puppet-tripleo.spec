@@ -93,7 +93,7 @@ Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
 Requires:       puppet-zaqar >= 13.0.0
 Requires:       puppet-zookeeper
-Requires:       puppet >= 2.7.0
+Requires:       puppet-headless >= 5.5.6
 
 %if 0%{rhosp} == 0
 Requires:       puppet-mongodb
@@ -102,6 +102,8 @@ Requires:       puppet-etcd
 Requires:       puppet-tacker
 %endif
 
+Obsoletes:      puppet >= 5.5.6
+Provides:       puppet >= 5.5.6
 
 %description
 Lightweight composition layer for Puppet TripleO.
