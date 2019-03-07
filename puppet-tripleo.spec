@@ -102,6 +102,8 @@ Requires:       puppet-etcd
 Requires:       puppet-tacker
 %endif
 
+Obsoletes:      puppet
+Requires:       puppet-headless
 
 %description
 Lightweight composition layer for Puppet TripleO.
