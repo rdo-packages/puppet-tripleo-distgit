@@ -93,7 +93,7 @@ Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
 Requires:       puppet-zaqar >= 13.0.0
 Requires:       puppet-zookeeper
-Requires:       puppet >= 2.7.0
+Requires:       puppet-headless >= 5.5.10
 
 %if 0%{rhosp} == 0
 Requires:       puppet-mongodb
