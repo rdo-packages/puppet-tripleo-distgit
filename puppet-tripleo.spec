@@ -94,6 +94,10 @@ Requires:       puppet-xinetd
 Requires:       puppet-zaqar >= 13.0.0
 Requires:       puppet-zookeeper
 Requires:       puppet >= 2.7.0
+# NOTE(aschultz): needed to properly manage firewall rules.
+%if 0%{?fedora} || 0%{?rhel} > 7
+Requires:       iptables-services
+%endif
 
 %if 0%{rhosp} == 0
 Requires:       puppet-mongodb
