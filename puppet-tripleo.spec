@@ -97,6 +97,9 @@ Requires:       puppet >= 2.7.0
 # NOTE(aschultz): needed to properly manage firewall rules.
 %if 0%{?fedora} || 0%{?rhel} > 7
 Requires:       iptables-services
+# NOTE(aschultz): needed for rabbitmq on rhel8/fedora, see LP#1822673
+# https://review.openstack.org/#/c/649170/
+Requires:       glibc-langpack-en
 %endif
 
 %if 0%{rhosp} == 0
