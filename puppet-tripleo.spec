@@ -4,7 +4,7 @@
 
 Name:           puppet-tripleo
 Version:        10.4.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        TripleO Puppet Module
 License:        ASL 2.0
 
@@ -97,6 +97,9 @@ Requires:       puppet >= 2.7.0
 # NOTE(aschultz): needed to properly manage firewall rules.
 %if 0%{?fedora} || 0%{?rhel} > 7
 Requires:       iptables-services
+# NOTE(aschultz): needed for rabbitmq on rhel8/fedora, see LP#1822673
+# https://review.openstack.org/#/c/649170/
+Requires:       glibc-langpack-en
 %endif
 
 %if 0%{rhosp} == 0
@@ -135,6 +138,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+* Tue Apr 23 2019 Lon Hohberger <lhh@redhat.com> 10.4.1-2
+- Add glibc-langpack-en requirement
+
 * Mon Apr 22 2019 RDO <dev@lists.rdoproject.org> 10.4.1-1
 - Update to 10.4.1
 
