@@ -59,7 +59,6 @@ Requires:       puppet-n1k-vsm
 Requires:       puppet-neutron >= 13.0.0
 Requires:       puppet-nova >= 13.0.0
 Requires:       puppet-nssdb
-Requires:       puppet-ntp
 Requires:       puppet-octavia >= 13.0.0
 Requires:       puppet-opendaylight
 Requires:       puppet-openstack_extras >= 13.0.0
