@@ -1,0 +1,11 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+1: Cédric Jeanneret <cjeanner@redhat.com>
+Code-Review+1: Lon Hohberger <lon@metamorphism.com>
+Code-Review+2: Yatin Karel <ykarel@redhat.com>
+Workflow+1: Yatin Karel <ykarel@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 08 May 2019 13:42:34 +0000
+Reviewed-on: https://review.rdoproject.org/r/19161
+Project: puppet/puppet-tripleo-distgit
+Branch: refs/heads/rpm-master
