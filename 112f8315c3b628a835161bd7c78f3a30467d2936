@@ -1,0 +1,8 @@
+Code-Review+2: Alex Schultz <aschultz@next-development.com>
+Workflow+1: Alex Schultz <aschultz@next-development.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Mon, 01 Jul 2019 22:04:45 +0000
+Reviewed-on: https://review.rdoproject.org/r/21315
+Project: puppet/puppet-tripleo-distgit
+Branch: refs/heads/rpm-master
