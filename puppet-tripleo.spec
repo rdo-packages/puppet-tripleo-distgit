@@ -4,7 +4,7 @@
 
 Name:           puppet-tripleo
 Version:        10.4.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        TripleO Puppet Module
 License:        ASL 2.0
 
@@ -31,6 +31,7 @@ Requires:       puppet-datacat
 Requires:       puppet-designate >= 13.0.0
 Requires:       puppet-ec2api >= 13.0.0
 Requires:       puppet-elasticsearch
+Requires:       puppet-etcd
 Requires:       puppet-fdio
 Requires:       puppet-firewall
 Requires:       puppet-fluentd
@@ -144,6 +145,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+* Mon Jul  1 2019 Alan Bishop <abishop@redhat.com> 10.4.1-3
+- Require puppet-etcd
+
 * Tue Apr 23 2019 Lon Hohberger <lhh@redhat.com> 10.4.1-2
 - Add glibc-langpack-en requirement
 
