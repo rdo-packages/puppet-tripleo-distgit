@@ -3,8 +3,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           puppet-tripleo
-Version:        10.4.1
-Release:        3%{?dist}
+Version:        10.5.0
+Release:        1%{?dist}
 Summary:        TripleO Puppet Module
 License:        ASL 2.0
 
@@ -145,6 +145,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+* Fri Jul 05 2019 RDO <dev@lists.rdoproject.org> 10.5.0-1
+- Update to 10.5.0
+
 * Mon Jul  1 2019 Alan Bishop <abishop@redhat.com> 10.4.1-3
 - Require puppet-etcd
 
