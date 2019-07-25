@@ -74,6 +74,7 @@ Requires:       puppet-rabbitmq
 Requires:       puppet-redis
 Requires:       puppet-remote
 Requires:       puppet-rsync
+Requires:       puppet-sahara >= 13.0.0
 Requires:       puppet-sensu
 Requires:       puppet-snmp
 Requires:       puppet-ssh
@@ -111,7 +112,6 @@ Requires:       glibc-langpack-en
 Requires:       puppet-mongodb
 Requires:       puppet-congress
 Requires:       puppet-etcd
-Requires:       puppet-sahara >= 13.0.0
 Requires:       puppet-tacker
 %endif
 
