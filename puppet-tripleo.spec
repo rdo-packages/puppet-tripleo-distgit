@@ -34,7 +34,6 @@ Requires:       puppet-elasticsearch
 Requires:       puppet-etcd
 Requires:       puppet-fdio
 Requires:       puppet-firewall
-Requires:       puppet-fluentd
 Requires:       puppet-git
 Requires:       puppet-glance >= 13.0.0
 Requires:       puppet-gnocchi >= 13.0.0
@@ -75,7 +74,6 @@ Requires:       puppet-redis
 Requires:       puppet-remote
 Requires:       puppet-rsync
 Requires:       puppet-sahara >= 13.0.0
-Requires:       puppet-sensu
 Requires:       puppet-snmp
 Requires:       puppet-ssh
 Requires:       puppet-staging
@@ -86,7 +84,6 @@ Requires:       puppet-systemd
 Requires:       puppet-timezone
 Requires:       puppet-tomcat
 Requires:       puppet-trove >= 13.0.0
-Requires:       puppet-uchiwa
 Requires:       puppet-vcsrepo
 Requires:       puppet-veritas_hyperscale
 Requires:       puppet-vswitch >= 9.0.0
