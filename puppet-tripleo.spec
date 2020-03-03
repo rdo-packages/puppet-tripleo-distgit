@@ -147,3 +147,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 * Mon Oct 21 2019 RDO <dev@lists.rdoproject.org> 11.3.0-1
 - Update to 11.3.0
 
+
