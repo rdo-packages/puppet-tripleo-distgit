@@ -73,6 +73,7 @@ Requires:       puppet-rabbitmq
 Requires:       puppet-redis
 Requires:       puppet-remote
 Requires:       puppet-rsync
+Requires:       puppet-rsyslog
 Requires:       puppet-sahara >= 13.0.0
 Requires:       puppet-snmp
 Requires:       puppet-ssh
