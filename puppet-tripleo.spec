@@ -99,8 +99,8 @@ Requires:       puppet-headless >= 5.5.6
 Requires:       puppet-headless >= 5.5.10
 %endif
 # NOTE(aschultz): needed to properly manage firewall rules.
-%if 0%{?fedora} || 0%{?rhel} > 7
 Requires:       iptables-services
+%if 0%{?fedora} || 0%{?rhel} > 7
 # NOTE(aschultz): needed for rabbitmq on rhel8/fedora, see LP#1822673
 # https://review.openstack.org/#/c/649170/
 Requires:       glibc-langpack-en
