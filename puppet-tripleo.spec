@@ -107,9 +107,7 @@ Requires:       glibc-langpack-en
 
 %if 0%{rhosp} == 0
 Requires:       puppet-mongodb
-Requires:       puppet-congress
 Requires:       puppet-etcd
-Requires:       puppet-tacker
 %endif
 
 
