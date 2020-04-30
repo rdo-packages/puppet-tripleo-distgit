@@ -1,0 +1,10 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+2: Alex Schultz <aschultz@next-development.com>
+Workflow+1: Alex Schultz <aschultz@next-development.com>
+Code-Review+1: Jon Schlueter <jschluet@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 30 Apr 2020 15:33:51 +0000
+Reviewed-on: https://review.rdoproject.org/r/27086
+Project: puppet/puppet-tripleo-distgit
+Branch: refs/heads/rpm-master
