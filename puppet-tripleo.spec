@@ -108,7 +108,6 @@ Requires:       glibc-langpack-en
 
 %if 0%{rhosp} == 0
 Requires:       puppet-mongodb
-Requires:       puppet-etcd
 %endif
 
 
