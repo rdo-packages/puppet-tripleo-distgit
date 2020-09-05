@@ -20,6 +20,7 @@ Requires:       puppet-auditd
 Requires:       puppet-barbican >= 13.0.0
 Requires:       puppet-cassandra
 Requires:       puppet-ceilometer >= 13.0.0
+Requires:       puppet-ceph
 Requires:       puppet-certmonger
 Requires:       puppet-cinder >= 13.0.0
 Requires:       puppet-collectd
