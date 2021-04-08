@@ -22,6 +22,30 @@
       "revId": "d500be3e158df786b5d230dd43908ac4e67fcde7",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "63b23b08_6f6235bd",
+        "filename": "puppet-tripleo.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2021-04-08T15:24:43Z",
+      "side": 1,
+      "message": "automatically proposed in https://review.rdoproject.org/r/c/puppet/puppet-tripleo-distgit/+/33164 and merged",
+      "parentUuid": "442d7f62_9518ddd9",
+      "range": {
+        "startLine": 6,
+        "startChar": 20,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "d500be3e158df786b5d230dd43908ac4e67fcde7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
