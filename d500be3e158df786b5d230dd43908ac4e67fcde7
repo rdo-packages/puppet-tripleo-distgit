@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "442d7f62_9518ddd9",
+        "filename": "puppet-tripleo.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2021-04-08T15:23:03Z",
+      "side": 1,
+      "message": "can you update to 11.6.1 now we merged a fix with https://review.opendev.org/c/openstack/releases/+/785228",
+      "range": {
+        "startLine": 6,
+        "startChar": 20,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "d500be3e158df786b5d230dd43908ac4e67fcde7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
