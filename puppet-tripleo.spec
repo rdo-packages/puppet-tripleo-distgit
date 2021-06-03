@@ -3,7 +3,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           puppet-tripleo
-Version:        13.6.1
+Version:        13.6.2
 Release:        1%{?dist}
 Summary:        TripleO Puppet Module
 License:        ASL 2.0
@@ -136,6 +136,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+* Thu Jun 03 2021 RDO <dev@lists.rdoproject.org> 13.6.2-1
+- Update to 13.6.2
+
 * Thu Apr 08 2021 RDO <dev@lists.rdoproject.org> 13.6.1-1
 - Update to 13.6.1
 
