@@ -63,7 +63,6 @@ Requires:       puppet-kibana3
 Requires:       puppet-kmod
 Requires:       puppet-manila >= 13.0.0
 Requires:       puppet-memcached
-Requires:       puppet-midonet
 Requires:       puppet-mistral >= 13.0.0
 Requires:       puppet-module-data
 Requires:       puppet-mysql
