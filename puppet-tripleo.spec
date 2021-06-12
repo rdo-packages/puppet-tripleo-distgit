@@ -95,7 +95,6 @@ Requires:       puppet-systemd
 Requires:       puppet-timezone
 Requires:       puppet-tomcat
 Requires:       puppet-vcsrepo
-Requires:       puppet-veritas_hyperscale
 Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
 Requires:       puppet-zaqar >= 13.0.0
