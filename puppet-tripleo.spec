@@ -68,7 +68,6 @@ Requires:       puppet-midonet
 Requires:       puppet-mistral >= 13.0.0
 Requires:       puppet-module-data
 Requires:       puppet-mysql
-Requires:       puppet-n1k-vsm
 Requires:       puppet-neutron >= 13.0.0
 Requires:       puppet-nova >= 13.0.0
 Requires:       puppet-nssdb
