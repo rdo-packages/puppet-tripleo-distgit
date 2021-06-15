@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d118b50_513a508e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 271
+      },
+      "writtenOn": "2021-06-15T08:33:35Z",
+      "side": 1,
+      "message": "I will then backport the original change in rpm-wallaby, once the dependency is proposed/merged in stable/wallaby",
+      "revId": "9c454000e0d4acfa94d7599b8f4e8c3b7cc9a59e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
