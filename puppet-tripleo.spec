@@ -60,7 +60,6 @@ Requires:       puppet-kafka
 Requires:       puppet-keepalived
 Requires:       puppet-keystone >= 13.0.0
 Requires:       puppet-kibana3
-Requires:       puppet-kmod
 Requires:       puppet-manila >= 13.0.0
 Requires:       puppet-memcached
 Requires:       puppet-module-data
