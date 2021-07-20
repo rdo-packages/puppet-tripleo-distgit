@@ -41,7 +41,6 @@ Requires:       puppet-contrail
 Requires:       puppet-corosync
 Requires:       puppet-datacat
 Requires:       puppet-designate >= 13.0.0
-Requires:       puppet-ec2api >= 13.0.0
 Requires:       puppet-elasticsearch
 Requires:       puppet-etcd
 Requires:       puppet-fdio
