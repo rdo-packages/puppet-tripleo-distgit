@@ -61,7 +61,6 @@ Requires:       puppet-keystone >= 13.0.0
 Requires:       puppet-kibana3
 Requires:       puppet-manila >= 13.0.0
 Requires:       puppet-memcached
-Requires:       puppet-mistral >= 13.0.0
 Requires:       puppet-module-data
 Requires:       puppet-mysql
 Requires:       puppet-neutron >= 13.0.0
