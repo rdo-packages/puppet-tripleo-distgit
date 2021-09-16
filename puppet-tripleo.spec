@@ -90,7 +90,6 @@ Requires:       puppet-timezone
 Requires:       puppet-tomcat
 Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
-Requires:       puppet-zaqar >= 13.0.0
 Requires:       puppet-zookeeper
 %if 0%{?fedora}
 # NOTE(bogdando): only needed for f28-based CI passing,
