@@ -145,3 +145,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-tripleo/commit/160977d0d564be32e67bca9afdb7e2d83c4ec4ad
