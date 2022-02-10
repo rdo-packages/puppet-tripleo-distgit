@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "290d5ba9_7da10087",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-02-10T08:21:00Z",
+      "side": 1,
+      "message": "After this patch, may we just remove puppet-keepalived from RDO?, i don\u0027t see we use it in any other place.",
+      "revId": "d468c73c563bd2254f3ee428a7941eaa5803165f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
