@@ -52,7 +52,6 @@ Requires:       puppet-horizon >= 13.0.0
 Requires:       puppet-inifile
 Requires:       puppet-ipaclient
 Requires:       puppet-ironic >= 13.0.0
-Requires:       puppet-keepalived
 Requires:       puppet-keystone >= 13.0.0
 Requires:       puppet-manila >= 13.0.0
 Requires:       puppet-memcached
