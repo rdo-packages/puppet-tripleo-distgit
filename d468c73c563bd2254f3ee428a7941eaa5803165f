@@ -16,6 +16,24 @@
       "message": "After this patch, may we just remove puppet-keepalived from RDO?, i don\u0027t see we use it in any other place.",
       "revId": "d468c73c563bd2254f3ee428a7941eaa5803165f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1c6624a_26fb5902",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2022-03-02T03:33:59Z",
+      "side": 1,
+      "message": "We have no other modules dependent on this so I think we can remove this.",
+      "parentUuid": "290d5ba9_7da10087",
+      "revId": "d468c73c563bd2254f3ee428a7941eaa5803165f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
