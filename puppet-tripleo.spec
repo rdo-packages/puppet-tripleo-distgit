@@ -36,7 +36,6 @@ Requires:       puppet-certmonger
 Requires:       puppet-cinder >= 13.0.0
 Requires:       puppet-collectd
 Requires:       puppet-concat
-Requires:       puppet-contrail
 Requires:       puppet-corosync
 Requires:       puppet-designate >= 13.0.0
 Requires:       puppet-etcd
