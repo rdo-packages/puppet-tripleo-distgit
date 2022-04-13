@@ -58,7 +58,6 @@ Requires:       puppet-module-data
 Requires:       puppet-mysql
 Requires:       puppet-neutron >= 13.0.0
 Requires:       puppet-nova >= 13.0.0
-Requires:       puppet-nssdb
 Requires:       puppet-octavia >= 13.0.0
 Requires:       puppet-openstack_extras >= 13.0.0
 Requires:       puppet-openstacklib >= 13.0.0
@@ -69,12 +68,10 @@ Requires:       puppet-placement
 Requires:       puppet-qdr
 Requires:       puppet-rabbitmq
 Requires:       puppet-redis
-Requires:       puppet-remote
 Requires:       puppet-rsync
 Requires:       puppet-rsyslog
 Requires:       puppet-snmp
 Requires:       puppet-ssh
-Requires:       puppet-staging
 Requires:       puppet-stdlib
 Requires:       puppet-swift >= 13.0.0
 Requires:       puppet-sysctl
