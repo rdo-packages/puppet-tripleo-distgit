@@ -35,7 +35,6 @@ Requires:       puppet-ceilometer >= 13.0.0
 Requires:       puppet-cinder >= 13.0.0
 Requires:       puppet-collectd
 Requires:       puppet-concat
-Requires:       puppet-corosync
 Requires:       puppet-designate >= 13.0.0
 Requires:       puppet-etcd
 Requires:       puppet-fdio
@@ -58,7 +57,6 @@ Requires:       puppet-neutron >= 13.0.0
 Requires:       puppet-nova >= 13.0.0
 Requires:       puppet-nssdb
 Requires:       puppet-octavia >= 13.0.0
-Requires:       puppet-openstack_extras >= 13.0.0
 Requires:       puppet-openstacklib >= 13.0.0
 Requires:       puppet-ovn >= 13.0.0
 Requires:       puppet-oslo >= 13.0.0
