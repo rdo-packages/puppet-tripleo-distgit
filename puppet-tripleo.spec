@@ -76,7 +76,6 @@ Requires:       puppet-rsync
 Requires:       puppet-rsyslog
 Requires:       puppet-snmp
 Requires:       puppet-ssh
-Requires:       puppet-staging
 Requires:       puppet-stdlib
 Requires:       puppet-swift >= 13.0.0
 Requires:       puppet-sysctl
