@@ -71,7 +71,6 @@ Requires:       puppet-placement
 Requires:       puppet-qdr
 Requires:       puppet-rabbitmq
 Requires:       puppet-redis
-Requires:       puppet-remote
 Requires:       puppet-rsync
 Requires:       puppet-rsyslog
 Requires:       puppet-snmp
