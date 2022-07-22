@@ -157,3 +157,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/tripleo/
 * Fri Oct 30 2020 RDO <dev@lists.rdoproject.org> 13.4.0-1
 - Update to 13.4.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-tripleo/commit/704336970fe2131cc27d737ba24595c06df12a2f
