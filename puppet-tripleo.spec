@@ -29,7 +29,6 @@ BuildRequires:  openstack-macros
 
 Requires:       puppet-aodh >= 13.0.0
 Requires:       puppet-apache
-Requires:       puppet-auditd
 Requires:       puppet-barbican >= 13.0.0
 Requires:       puppet-ceilometer >= 13.0.0
 Requires:       puppet-cinder >= 13.0.0
