@@ -36,7 +36,6 @@ Requires:       puppet-collectd
 Requires:       puppet-concat
 Requires:       puppet-designate >= 13.0.0
 Requires:       puppet-etcd
-Requires:       puppet-fdio
 Requires:       puppet-firewall
 Requires:       puppet-glance >= 13.0.0
 Requires:       puppet-gnocchi >= 13.0.0
