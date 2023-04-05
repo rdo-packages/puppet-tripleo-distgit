@@ -18,19 +18,16 @@ Requires:       puppet-aodh >= 13.0.0
 Requires:       puppet-apache
 Requires:       puppet-auditd
 Requires:       puppet-barbican >= 13.0.0
-Requires:       puppet-cassandra
 Requires:       puppet-ceilometer >= 13.0.0
 Requires:       puppet-ceph
 Requires:       puppet-certmonger
 Requires:       puppet-cinder >= 13.0.0
 Requires:       puppet-collectd
 Requires:       puppet-concat
-Requires:       puppet-contrail
 Requires:       puppet-corosync
 Requires:       puppet-datacat
 Requires:       puppet-designate >= 13.0.0
 Requires:       puppet-ec2api >= 13.0.0
-Requires:       puppet-elasticsearch
 Requires:       puppet-etcd
 Requires:       puppet-fdio
 Requires:       puppet-firewall
@@ -44,10 +41,8 @@ Requires:       puppet-inifile
 Requires:       puppet-ipaclient
 Requires:       puppet-ironic >= 13.0.0
 Requires:       puppet-java
-Requires:       puppet-kafka
 Requires:       puppet-keepalived
 Requires:       puppet-keystone >= 13.0.0
-Requires:       puppet-kibana3
 Requires:       puppet-kmod
 Requires:       puppet-manila >= 13.0.0
 Requires:       puppet-memcached
@@ -90,7 +85,6 @@ Requires:       puppet-veritas_hyperscale
 Requires:       puppet-vswitch >= 9.0.0
 Requires:       puppet-xinetd
 Requires:       puppet-zaqar >= 13.0.0
-Requires:       puppet-zookeeper
 %if 0%{?fedora}
 # NOTE(bogdando): only needed for f28-based CI passing,
 # remove this condition for the "else" path, once we have Centos 8.
